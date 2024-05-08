@@ -3,11 +3,11 @@ import React from 'react'
 
 const Customers = () => {
   return (
-    <section className='flex flex-col items-center px-12 my-10'>
+    <section className='max-container padding-container flex flex-col items-center px-12 my-10'>
     <h1 className='text-3xl text-bold text-black'>Real  Stories From Satisfied Customers</h1>
     <p className='text-xl text-gray-20 py-2'>See how BilmaPay is making an Impact</p>
- <div className='flex gap-10 py-10'>
-    <div className='flex flex-col p-5 bg-white text-center shadow-2xl rounded-sm'>
+ <div className='flex flex-col md:flex-row gap-10 py-10'>
+    <div className='flex flex-col p-1 md:p-5 bg-white text-center shadow-2xl rounded-sm'>
         <div className='w-[30px] h-[30px] bg-green-200 rounded-full m-auto'></div>
      <h2 className='text-xl bold-20 text-black py-1'>Obi Pascal</h2>
      <span className='text-[16px] bold-md'>Fullstack Developer @JCK</span>

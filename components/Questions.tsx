@@ -3,9 +3,12 @@ import React from 'react'
 
 const Questions = () => {
   return (
-   <section  className='max-container padding-container flex gap-12 p-5 bg-white mt-12'>
-     <Image src="/questn.png" alt='questn' width={300} height={80}/>
-        <div className='flex flex-col gap-1 pt-10'>
+   <section  className='max-container padding-container flex flex-col md:flex-row gap-5 p-5 bg-white mt-12'>
+    <div className='flex-1'>
+     <Image src="/questn.png" alt='questn' width={400} height={100}/>
+     </div>
+
+        <div className='flex flex-1 flex-col gap-2 pt-10'>
             <div className='flex flex-col p-5 bg-white relative shadow-sm'>
             <span className='absolute right-3 target:2'>
             <Image src="/uparrow.png" alt='uparrow' width={20} height={20}/>

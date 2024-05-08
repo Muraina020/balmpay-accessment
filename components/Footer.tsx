@@ -6,7 +6,7 @@ const Footer = () => {
     <section className="max-container padding-container flex flex-col md:flex-row gap-20 py-10 pb-32 md:gap-15 lg:py-12 xl:flex-row mt-12">
        <div className='flex flex-col gap-2'>
         <Image src="/bilmlogo.png" alt='logo' width={120} height={80}/>
-        <div className='flex gap-4 text-[18px] text-bold py-4'>
+        <div className='flex gap-[10px] md:gap-4 text-[16px] md:text-[18px] text-bold py-4'>
           <a href="/">Feature</a>
           <a href="/">About</a>
           <a href="/">Careers</a>

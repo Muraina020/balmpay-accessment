@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <nav className='border-2 flexBetween max-container padding-container relative z-30 py-5'>
     <Link href="/" className='flex'>
-        <Image src="/icon 1.png" alt="logo" width={74} height={29}/>
-        <span className='text-bold text-2xl text-black mt-[20px]'>BilmaPay</span>
+        <Image src="/navlogo.png" alt="logo" width={74} height={29} className='w-[35px] h-[25px] md:w-[80px] md:h-[50px]'/>
+        <span className='text-bold text-[18px] md:text-2xl text-black mt-[4px] md:mt-[10px]'>BilmaPay</span>
     </Link>
 
     <ul className='hidden h-full gap-12 lg:flex'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <section className='max-container padding-container flex flex-col items-center my-15'>
+    <section className='flex flex-col items-center my-15'>
     <h2>Features</h2>
     <p className='text-2xl text-gray-30 py-5 '>Why you should use BilmaPay</p>
  
